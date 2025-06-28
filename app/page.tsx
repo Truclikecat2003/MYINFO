@@ -187,8 +187,9 @@ export default function ProfessionalPortfolio() {
   location: "TP. Thủ Dầu Một, Bình Dương, Việt Nam",
   github: "github.com/yourprofile",
   summary: "Senior Full Stack Developer với 3+ năm kinh nghiệm phát triển ứng dụng web quy mô lớn.",
-  profileImage: "../pic/IMG_1841.JPG", // <-- đã thay bằng ảnh thật
+  profileImage: "/IMG_1841.JPG", // ✅ đường dẫn đúng
 })
+
 
   const [showDetailModal, setShowDetailModal] = useState(false)
   const [showEditModal, setShowEditModal] = useState(false)
